@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
 
 public class Triangle extends JPanel {
     private final int[] xs = {100, 50, 250};
@@ -26,7 +25,7 @@ public class Triangle extends JPanel {
     public static void main(String[] args) {
         JFrame f = new JFrame("Triangle");
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        f.add(new Triangle());
+        f.add(new Triangle2());
         f.pack();
         f.setLocationRelativeTo(null);
         f.setVisible(true);

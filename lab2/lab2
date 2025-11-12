@@ -1,0 +1,20 @@
+QUESTION 1: Which constructor should you use?
+Answer: Use the parameterized constructor Rectangle1(int xx, int yy, int w, int h)
+This constructor takes 4 int parameters for x position, y position, width, and height.
+
+QUESTION 2: Where should the Rectangle1 be declared?
+Answer: The Rectangle1 should be declared as an instance variable (private field)
+at the top of the class so it can be used in both the constructor and the
+paintComponent method. Local variables in the constructor would disappear after
+the constructor finishes.
+
+QUESTION 3: Do the double variables work? Why not? How do you fix this?
+Answer: No, double variables don't work because the Rectangle1 constructor expects
+int parameters. When you try to pass a double to an int parameter, Java gives a
+compile error because you'd lose precision. You fix this by either:
+- Declaring them as int instead of double
+- Casting them to int: (int)wid, (int)ex, (int)wy
+
+QUESTION 4: What do you have to change the double variables to?
+Answer: Change them to int variables, or cast them to int when passing them
+to the constructor.
