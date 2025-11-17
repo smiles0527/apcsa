@@ -45,7 +45,7 @@ public class Popsicle {
         return remaining;
     }
 
-    @Override
+    
     public String toString() {
         return "Popsicle{flavour='" + flavour + "', size=" + size
                 + ", remaining=" + remaining + "}";
