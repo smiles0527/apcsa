@@ -1,54 +1,63 @@
 package IntroductoryStringsLab;
 
+import java.util.Scanner;
+
 public class SentenceRunner {
     public static void main(String[] args) {
-        // Test Default Constructor
-        Sentence s1 = new Sentence();
-        System.out.println("s1 (empty): " + s1);
-        System.out.println("s1 isEmpty: " + s1.emptySentence());
-
-        // Test Parameter Constructor
-        Sentence s2 = new Sentence("Hello World");
-        System.out.println("s2: " + s2);
-        System.out.println("s2 isEmpty: " + s2.emptySentence());
-
-        // Test Add
-        s1.add("Java");
-        System.out.println("s1 after add('Java'): " + s1);
-        System.out.println("s1 isEmpty: " + s1.emptySentence());
-
-        s2.add("!");
-        System.out.println("s2 after add('!'): " + s2);
-
-        // Test Remove
-        s2.remove("World");
-        System.out.println("s2 after remove('World'): " + s2);
+        Scanner scanner = new Scanner(System.in);
         
-        s2.remove("z"); // Remove something not there
-        System.out.println("s2 after remove('z') (should be same): " + s2);
-
-        // Test isSame
-        Sentence s3 = new Sentence("Java");
-        System.out.println("s1 isSame s3 (true): " + s1.isSame(s3));
+        // Hardwired d and order as requested for the first part
+        int d = 5;
+        int[] order = {4, 2, 3, 1, 5};
         
-        Sentence s4 = new Sentence("Hello !");
-        System.out.println("s2 isSame s4 (true): " + s2.isSame(s4));
-
-        // Test sameLength
-        Sentence s5 = new Sentence("Four");
-        Sentence s6 = new Sentence("Five"); // Same length 4
-        System.out.println("s5 sameLength s6 (true): " + s5.sameLength(s6));
-        System.out.println("s1 sameLength s5 (true): " + s1.sameLength(s5)); // Java vs Four
-
-        // Test charCount
-        Sentence s7 = new Sentence("mississippi");
-        System.out.println("s7: " + s7);
-        System.out.println("Count of 'i' in s7: " + s7.charCount("i"));
-        System.out.println("Count of 's' in s7: " + s7.charCount("s"));
-        System.out.println("Count of 'p' in s7: " + s7.charCount("p"));
+        System.out.println("--- Fixed Period Encryption ---");
+        System.out.println("Default configuration: d=" + d + ", order={4, 2, 3, 1, 5}");
         
-        // Test getSentence
-        System.out.println("s7 getSentence(): " + s7.getSentence());
+        // Prompt for sentence
+        System.out.println("Please enter a sentence to encrypt:");
+        String inputLine = scanner.nextLine();
+        
+        Sentence sentenceToEncrypt = new Sentence(inputLine);
+        String encrypted = sentenceToEncrypt.encrypt(d, order);
+        
+        System.out.println("Encrypted message: " + encrypted);
+        
+        // Decryption part
+        System.out.println("\n--- Decryption ---");
+        // Create a new Sentence object with the encrypted text
+        // Note: The encrypted text contains spaces between blocks, which we handle in decrypt
+        Sentence sentenceToDecrypt = new Sentence(encrypted);
+        String decrypted = sentenceToDecrypt.decrypt(d, order);
+        
+        System.out.println("Decrypted message: " + decrypted);
+        
+        // Extension: User defined d and order
+        System.out.println("\n--- Extension: Custom Encryption ---");
+        System.out.print("Do you want to try custom parameters? (y/n): ");
+        String choice = scanner.nextLine();
+        
+        if (choice.equalsIgnoreCase("y")) {
+            System.out.print("Enter value for d: ");
+            int customD = Integer.parseInt(scanner.nextLine());
+            
+            int[] customOrder = new int[customD];
+            System.out.println("Enter the order numbers (1 to " + customD + ") separated by spaces or newlines:");
+            for (int i = 0; i < customD; i++) {
+                customOrder[i] = scanner.nextInt();
+            }
+            scanner.nextLine(); // consume newline
+            
+            System.out.println("Enter sentence to encrypt:");
+            String customLine = scanner.nextLine();
+            
+            Sentence customSentence = new Sentence(customLine);
+            String customEncrypted = customSentence.encrypt(customD, customOrder);
+            System.out.println("Encrypted: " + customEncrypted);
+            
+            Sentence decryptCustom = new Sentence(customEncrypted);
+            System.out.println("Decrypted: " + decryptCustom.decrypt(customD, customOrder));
+        }
+        
+        scanner.close();
     }
 }
-
