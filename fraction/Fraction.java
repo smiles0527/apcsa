@@ -1,3 +1,5 @@
+package fraction;
+
 /**
  * The Fraction class represents a mathematical fraction with a numerator and denominator.
  * It provides functionality to reduce fractions, get their decimal value, and perform basic operations.

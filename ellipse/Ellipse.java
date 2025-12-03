@@ -1,4 +1,7 @@
+package ellipse;
+
 import java.awt.*;
+import java.awt.geom.*;
 
 public class Ellipse{
     private int xPosition;

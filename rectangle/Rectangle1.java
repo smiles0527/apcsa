@@ -1,3 +1,5 @@
+package rectangle;
+
 /**
  * A shape class for learning object construction.
  * @author Duncan Fraser

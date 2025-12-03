@@ -1,3 +1,5 @@
+package book;
+
 /**
  * Chapter 2 Book Lab - Book class implementation.
  *

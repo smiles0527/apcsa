@@ -1,3 +1,5 @@
+package rectangle;
+
 import javax.swing.JComponent;
 import java.awt.*;
 

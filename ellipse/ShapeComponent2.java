@@ -1,3 +1,7 @@
+package ellipse;
+
+import rectangle.Rectangle1;
+import rectangle.Circle1;
 import javax.swing.JComponent;
 import java.awt.*;
 
@@ -5,9 +9,9 @@ public class ShapeComponent2 extends JComponent{
     private Rectangle1 rect;
     private Rectangle1 rect2;
     private Circle1 circ1;
-    private Triangle tri;
-    private Triangle eyeLeft;
-    private Triangle eyeRight;
+    private Triangle2 tri;
+    private Triangle2 eyeLeft;
+    private Triangle2 eyeRight;
     private Circle1 face;
     private Circle1 mouth;
 
@@ -57,7 +61,7 @@ public class ShapeComponent2 extends JComponent{
         Point p1 = new Point(100, 300);
         Point p2 = new Point(150, 250);
         Point p3 = new Point(200, 300);
-        tri = new Triangle(p1, p2, p3);
+        tri = new Triangle2(p1, p2, p3);
         tri.setFilled();
         tri.setColour(255, 100, 200);
 
@@ -68,11 +72,11 @@ public class ShapeComponent2 extends JComponent{
         face.setColour(255, 220, 0);
 
         // Eyes (triangles)
-        eyeLeft = new Triangle(280, 90, 290, 110, 270, 110);
+        eyeLeft = new Triangle2(280, 90, 290, 110, 270, 110);
         eyeLeft.setFilled();
         eyeLeft.setColour(0, 0, 0);
 
-        eyeRight = new Triangle(350, 90, 360, 110, 340, 110);
+        eyeRight = new Triangle2(350, 90, 360, 110, 340, 110);
         eyeRight.setFilled();
         eyeRight.setColour(0, 0, 0);
 

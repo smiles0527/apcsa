@@ -1,3 +1,5 @@
+package ellipse;
+
 import java.awt.*;
 
 public class Triangle2 {

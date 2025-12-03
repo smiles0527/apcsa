@@ -1,3 +1,5 @@
+package rectangle;
+
 import java.awt.*;
 import java.awt.geom.*;
 

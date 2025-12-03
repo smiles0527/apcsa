@@ -1,3 +1,5 @@
+package popsicle;
+
 public class MakePop {
 
     public static void main(String[] args) {

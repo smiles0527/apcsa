@@ -1,3 +1,5 @@
+package ellipse;
+
 import javax.swing.JFrame;
 
 public class ViewWindow2{

@@ -1,3 +1,5 @@
+package fraction;
+
 /**
  * FractionRunner - A driver class to test the Fraction class
  * This class demonstrates and tests all the functionality of the Fraction class

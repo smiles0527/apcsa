@@ -1,3 +1,5 @@
+package popsicle;
+
 /**
  * Chapter 2 Popsicle Lab - Popsicle class.
  */

@@ -1,4 +1,4 @@
-package ellipse;
+package IfGraphics;
 
 public class Point{
     private int x;
