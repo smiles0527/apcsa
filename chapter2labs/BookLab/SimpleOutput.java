@@ -1,4 +1,4 @@
-package Chapter2Labs/BookLab;
+package Chapter2Labs.BookLab;
 
 /**
  * Simple output helper used in the Chapter 2 Book Lab.

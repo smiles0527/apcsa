@@ -1,4 +1,4 @@
-package Chapter4Labs/StringLab;
+package Chapter4Labs.StringsLab;
 
 import java.util.Scanner;
 

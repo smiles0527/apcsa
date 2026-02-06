@@ -1,4 +1,4 @@
-package Chapter2Labs/ShapesLab;
+package Chapter2Labs.ShapesLab;
 
 import java.awt.*;
 import java.awt.geom.*;

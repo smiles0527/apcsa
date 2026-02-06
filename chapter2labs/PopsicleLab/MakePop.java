@@ -1,4 +1,4 @@
-package Chapter2Labs/PopsicleLab;
+package Chapter2Labs.PopsicleLab;
 
 public class MakePop {
 

@@ -1,4 +1,4 @@
-package Chapter6Labs/GraphicsLab;
+package Chapter6Labs.GraphicsLab;
 import javax.swing.JFrame;
 
 public class ViewWindow

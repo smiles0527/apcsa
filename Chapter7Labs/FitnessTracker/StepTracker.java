@@ -1,4 +1,4 @@
-package Chapter7Labs/FitnessTracker;
+package Chapter7Labs.FitnessTracker;
 import java.util.ArrayList;
 
 public class StepTracker

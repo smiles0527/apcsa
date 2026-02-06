@@ -1,4 +1,4 @@
-package Chapter3Labs/FractionLab;
+package Chapter4Labs.FractionLab2;
 
 /**
  * The Fraction class represents a mathematical fraction with a numerator and denominator.

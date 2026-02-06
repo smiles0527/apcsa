@@ -31,3 +31,6 @@ bin/
 
 ### Java ###
 *.class
+
+### Claude Code ###
+.claude/

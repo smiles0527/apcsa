@@ -1,4 +1,4 @@
-package Chapter6Labs/PerfectNumbers;
+package Chapter6Labs.PerfectNumbers;
 import java.util.Scanner;
 
 public class MyMath

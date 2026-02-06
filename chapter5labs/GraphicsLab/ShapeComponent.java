@@ -1,4 +1,4 @@
-package Chapter5Labs/GraphicsLab;
+package Chapter5Labs.GraphicsLab;
 /**
  * A helper class for showing basic shapes using JComponent.
  * @author Duncan Fraser

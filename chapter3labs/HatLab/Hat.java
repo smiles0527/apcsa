@@ -1,4 +1,4 @@
-package Chapter3Labs/HatLab;
+package Chapter3Labs.HatLab;
 
 import java.awt.*;
 

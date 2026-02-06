@@ -1,4 +1,4 @@
-package Chapter6Labs/Loops;
+package Chapter6Labs.Loops;
 import java.util.Scanner;
 
 public class CurrencyConverter

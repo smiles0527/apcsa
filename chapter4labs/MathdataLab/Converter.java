@@ -1,4 +1,4 @@
-package Chapter4Labs/MathdataLab;
+package Chapter4Labs.MathdataLab;
 
 public class Converter
 {

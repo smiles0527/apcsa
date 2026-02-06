@@ -1,4 +1,4 @@
-package Chapter5Labs/RockPaperScissors;
+package Chapter5Labs.RockPaperScissors;
 
 import java.util.Scanner;
 

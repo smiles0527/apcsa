@@ -1,4 +1,4 @@
-package Chapter4Labs/DiceLab;
+package Chapter4Labs.DiceLab;
 
 public class Dice
 {

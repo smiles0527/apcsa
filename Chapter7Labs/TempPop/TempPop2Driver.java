@@ -1,4 +1,4 @@
-package Chapter7Labs/TempPop;
+package Chapter7Labs.TempPop;
 public class TempPop2Driver
 {
     public static void main(String[] args)

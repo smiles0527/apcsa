@@ -1,4 +1,4 @@
-package Chapter7Labs/FitnessTracker;
+package Chapter7Labs.FitnessTracker;
 import java.io.File;
 import java.util.Scanner;
 

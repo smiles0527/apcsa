@@ -1,4 +1,4 @@
-package Chapter5Labs/Salary;
+package Chapter5Labs.Salary;
 import java.util.Scanner;
 
 public class LakeLazyDays

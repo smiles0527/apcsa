@@ -1,4 +1,4 @@
-package Chapter5Labs/PerfectSquares;
+package Chapter5Labs.PerfectSquares;
 
 import java.util.Scanner;
 

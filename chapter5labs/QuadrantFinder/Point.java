@@ -1,4 +1,4 @@
-package Chapter5Labs/QuadrantFinder;
+package Chapter5Labs.QuadrantFinder;
 
 public class Point
 {

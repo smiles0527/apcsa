@@ -1,4 +1,4 @@
-package Chapter2Labs.ShapesLab;
+package Chapter2Labs.Challenge;
 
 import javax.swing.*;
 import java.awt.*;

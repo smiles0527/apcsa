@@ -1,4 +1,4 @@
-package Chapter4Labs/PeriodEncryption;
+package Chapter4Labs.PeriodEncryption;
 
 public class FixedPeriodCipher
 {

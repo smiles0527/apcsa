@@ -1,4 +1,4 @@
-package Chapter6Labs/Loops;
+package Chapter6Labs.Loops;
 public class PowerGeneratorRunner
 {
     public static void main(String[] args)

@@ -1,4 +1,4 @@
-package Chapter7Labs/ArrayListLab;
+package Chapter7Labs.ArrayListLab;
 import java.util.ArrayList;
 
 public class PlannerDriver

@@ -1,4 +1,4 @@
-package Chapter7Labs/TempPop;
+package Chapter7Labs.TempPop;
 import java.util.ArrayList;
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Chapter5Labs/IntroLab;
+package Chapter5Labs.IntroLab;
 import java.util.Scanner;
 
 public class LetterGuess

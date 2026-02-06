@@ -1,4 +1,4 @@
-package Chapter5Labs/Salary;
+package Chapter5Labs.Salary;
 import java.text.NumberFormat;
 import java.util.Scanner;
 

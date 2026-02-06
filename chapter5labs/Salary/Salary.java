@@ -1,4 +1,6 @@
-package Chapter5Labs/Salary;
+package Chapter5Labs.Salary;
+
+import java.util.Scanner;
 // ***************************************************************
 //   Salary.java
 //   Computes the amount of a raise and the new salary for an 

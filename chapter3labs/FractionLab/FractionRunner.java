@@ -1,4 +1,4 @@
-package FractionRunner.java;
+package Chapter3Labs.FractionLab;
 
 /**
  * FractionRunner - A driver class to test the Fraction class

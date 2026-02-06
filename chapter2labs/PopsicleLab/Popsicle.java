@@ -1,4 +1,4 @@
-package Chapter2Labs/PopsicleLab;
+package Chapter2Labs.PopsicleLab;
 
 /**
  * Chapter 2 Popsicle Lab - Popsicle class.

@@ -1,4 +1,4 @@
-package Chapter2Labs/Booklab;
+package Chapter2Labs.BookLab;
 
 import java.util.Scanner;
 

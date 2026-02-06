@@ -1,4 +1,4 @@
-package ShapeComponent;
+package Chapter2;
 /**
  * A helper class for showing basic shapes using JComponent.
  * @author Duncan Fraser

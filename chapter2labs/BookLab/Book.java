@@ -1,4 +1,4 @@
-package Chapter2Labs/BookLab;
+package Chapter2Labs.BookLab;
 
 /**
  * Chapter 2 Book Lab - Book class implementation.

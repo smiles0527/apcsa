@@ -1,4 +1,4 @@
-package Chapter7Labs/2Darray;
+package Chapter7Labs._2Darray;
 public class Array2Dexercise {
 
 	public static void main(String[] args) {

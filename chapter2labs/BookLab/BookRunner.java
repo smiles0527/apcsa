@@ -1,4 +1,4 @@
-package Chapter2Labs/BookLab;
+package Chapter2Labs.BookLab;
 public class BookRunner {
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Chapter4Labs/StringsLab;
+package Chapter4Labs.StringsLab;
 
 public class SentenceTester {
 

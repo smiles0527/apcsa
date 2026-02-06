@@ -1,4 +1,4 @@
-package Chapter7Labs/ArrayListLab;
+package Chapter7Labs.ArrayListLab;
 public class Date
 {
     private int month;
